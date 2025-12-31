@@ -35,8 +35,8 @@ jobs:
 
       - name: Tag image for GHCR
         run: |
-          docker tag baserow/baserow:2.0.6 ghcr.io/${{ github.actor }}/baserow:2.0.6
+          docker tag baserow/baserow:2.0.6 ghcr.io/thornwu/baserow:2.0.6
 
       - name: Push image to GHCR
         run: |
-          docker push ghcr.io/${{ github.actor }}/baserow:2.0.6
+          docker push ghcr.io/thornwu/baserow:2.0.6
